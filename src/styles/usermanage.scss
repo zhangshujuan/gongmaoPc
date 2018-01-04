@@ -1,0 +1,59 @@
+.el-button--primary{
+  margin-bottom: 35px;
+}
+
+
+.el-table .cell {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.cell{
+  a{
+    &.edit{
+      text-decoration: underline;
+      cursor: pointer;
+      color: #1e96df;
+      margin-right: 15px;
+    }
+    &.delete{
+      text-decoration: underline;
+      cursor: pointer;
+      color: #c94449;
+    }
+  }
+}
+
+.el-form{
+  width:66%;
+  .username,.duty{
+    width:15%;
+    min-width:120px;
+  }
+  .phonenumber,.email{
+    width:25%;
+    min-width: 170px;
+  }
+  .tips{
+    font-size: 12px;
+    color: #aaaaaa;
+  }
+}
+
+.edit-username{
+  input{
+    border: none;
+  }
+}
+
+i.is-reverse:before {
+  color: #0e8fdd;
+}
+
+.el-select-dropdown__list{
+  padding:0;
+}
+
+.el-select-dropdown{
+  margin:0;
+}

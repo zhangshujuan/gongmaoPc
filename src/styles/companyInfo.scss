@@ -1,0 +1,82 @@
+.bg-content{
+  background: #fff;
+  padding:45px 55px 55px 45px;
+  overflow: hidden;
+  margin-top: 17px;
+  .info-left{
+    float: left;
+    width:48%;
+    .company-name{
+      font-size: 20px;
+      font-weight: 600;
+      padding-bottom: 15px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #e6e6e6;
+    }
+    .company-location{
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+    .short-intro{
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e6e6e6;
+      margin-bottom: 25px;
+      span{
+        display: inline-block;
+        background: url("/static/part1_06_circle.png") no-repeat 0 45%;
+        font-size: 12px;
+        color: #45b5f9;
+        text-indent: 15px;
+        line-height: 18px;
+        &:nth-of-type(1){
+          margin-right: 35px;
+        }
+        &:nth-of-type(2){
+          margin-right: 42px;
+        }
+      }
+    }
+    .situation{
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+  .info-right{
+    float: right;
+    //width:41%;
+    //overflow: hidden;
+    .license{
+      width:245px;
+      height:345px;
+      margin: 0 0 35px 0;
+      //float: right;
+      clear: left;
+    }
+    .contact{
+      //overflow: hidden;
+      float: right;
+      clear: right;
+      min-width: 320px;
+      .contact-person{
+        float: left;
+        width:160px;
+        padding-left: 5px;
+      }
+      .salary-person{
+        float: left;
+        width:160px;
+        padding-left: 35px;
+      }
+      .duty{
+        font-size: 10px;
+        color: #b5b5b5;
+        display: block;
+        margin-bottom: 15px;
+      }
+      p{
+        font-size: 12px;
+        line-height: 22px;
+      }
+    }
+  }
+}

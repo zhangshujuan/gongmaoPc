@@ -1,0 +1,42 @@
+.corporation{
+  height:290px;
+  background: #f5f5f5;
+  padding-top: 55px;
+  overflow: hidden;
+  .corporation-title{
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+    .chinese{
+      font-size: 30px;
+      word-spacing: 3px;
+      margin-bottom: 20px;
+    }
+    .english{
+      font-size: 12px;
+      letter-spacing: 2px;
+      display: inline-block;
+      position: relative;
+      &:after{
+        content: "";
+        display: inline-block;
+        background: #333333;
+        position: absolute;
+        height:1px;
+        width:100%;
+        top:-10px;
+        left:0;
+      }
+    }
+  }
+  .cor-company-logo{
+    font-size: 0;
+    padding-left: 61px;
+    margin:0 auto;
+    width:1024px;
+    img{
+      display: inline-block;
+      margin-right: 36px;
+    }
+  }
+}

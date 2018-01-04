@@ -1,0 +1,46 @@
+//@import "base/common";
+//@import "base/flex";
+//@import "base/table";
+.common-title{
+  color: #28aaf8;
+}
+.bg-white{
+  background: #fff;
+  box-shadow: 0 1px 4px 0 rgba(63,84,101,.13);
+  padding: 35px 50px 45px 35px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border:1px solid #ddd;
+}
+.fs12{
+  font-size: 12px;
+}
+.fs20{
+  font-size: 20px !important;
+  color: #333;
+}
+.top-content{
+  .text-center{
+    .col-aaa{
+      color: #aaa;
+    }
+    .img{
+      margin: 15px 0px 20px 0px;
+      background-size: 28px 28px;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+    &:last-child{
+      .fs20{
+        color: #0e8fdd;
+      }
+    }
+  }
+}
+.centercontent{
+  padding: 35px 50px 0px 35px;
+}
+.bottomcontent{
+  //padding: 0px 50px 0px 35px;
+  margin-top: 20px;
+}

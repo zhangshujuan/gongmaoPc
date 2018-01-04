@@ -1,0 +1,28 @@
+.quanxian-notes{
+  display: inline-block;
+  vertical-align: top;
+  text-align: right;
+  float: left;
+  font-size: 14px;
+  color: #48576a;
+  line-height: 1;
+  padding: 11px 12px 11px 0;
+  box-sizing: border-box;
+}
+
+.el-tree{
+  display: inline-block;
+  border:none;
+  margin-bottom: 45px;
+}
+
+//无法展开或者折叠
+.el-tree-node__expand-icon{
+  display: none;
+}
+
+span.zhanwei{
+  display: inline-block;
+  padding:11px 12px 11px 0;
+  color: transparent;
+}

@@ -1,0 +1,172 @@
+.psd-area{
+  width: 100%;
+  height:calc(100% - 135px);
+  background: #f5f5f5;
+  padding-top: 30px;
+  h2{
+    font-size: 16px;
+    color: #28aaf8;
+    text-align: center;
+  }
+  .first-step{
+    form{
+      width:300px;
+      margin:0 auto;
+      position: relative;
+      .el-input{
+        margin-bottom: 10px;
+        input{
+          border-radius:4px;
+        }
+      }
+      .confirmcode,.graphcode{
+        input{
+          width:140px;
+        }
+      }
+      .graphcode{
+        .el-input-group__append{
+          background: #eeeeee;
+          border:1px solid #e8e8e8;
+        }
+      }
+      .el-button{
+        width:225px;
+        margin-left: 70px;
+        margin-top: 25px;
+      }
+      .is-disabled{
+        background: #dddddd;
+        color: #ffffff;
+      }
+      span.getConfirm{
+        position: absolute;
+        display: block;
+        font-size: 10px;
+        background: transparent;
+        border: 1px solid #82cbf7;
+        border-radius: 4px;
+        color: #82cbf7;
+        cursor: pointer;
+        width:78px;
+        height:36px;
+        line-height: 36px;
+        text-align: center;
+        padding:0;
+        z-index: 99;
+        right:0;
+        top : 92px;
+      }
+    }
+    .toolbtn{
+      color: #707070;
+      text-align: center;
+      cursor:pointer;
+      margin:22px auto 18px;
+    }
+    .tooltip{
+      width:270px;
+      height:150px;
+      background: #ffffff;
+      margin:0 auto;
+      position: relative;
+      padding: 17px 40px 0;
+      span{
+        color: #d8d8d8;
+        font-size: 12px;
+        position: absolute;
+        display: inline-block;
+        height:15px;
+        width:15px;
+        text-align: center;
+        line-height: 15px;
+        top:5px;
+        right:5px;
+        cursor: pointer;
+      }
+      p{
+        font-size: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 600;
+        &.phonenumber{
+          font-size: 16px;
+          color: #28aaf8;
+        }
+      }
+    }
+    .tooltip:after{
+      display: inline-block;
+      width:0;
+      height:0;
+      content: "";
+      background: #f5f5f5;
+      position: absolute;
+      border:10px solid transparent;
+      border-bottom:10px solid #ffffff;
+      top:-20px;
+      left:50%;
+      margin-left: -10px;
+    }
+    .el-input-group__prepend{
+      width: 71px;
+      text-align: right;
+      background: transparent !important;
+      color: #797979;
+      font-size: 10px;
+      border: none;
+      padding-right: 20px;
+    }
+    .el-input-group__append{
+      font-size: 10px;
+      background: transparent;
+      border: 1px solid #82cbf7;
+      border-radius: 4px;
+      color: #82cbf7;
+      cursor: pointer;
+      width:78px;
+      text-align: center;
+      padding:0;
+    }
+    .not-allowed{
+      cursor: not-allowed !important;
+    }
+  }
+  .second-step{
+    form{
+      width:290px;
+      margin:0 auto;
+      input{
+        width:223px;
+      }
+      .el-input{
+        margin-bottom: 10px;
+        input{
+          border-radius:4px;
+        }
+      }
+      .el-input-group__prepend{
+        width: 68px;
+        text-align: right;
+        background: transparent !important;
+        color: #797979;
+        font-size: 10px;
+        border: none;
+        padding: 0;
+        padding-right: 10px;
+      }
+      .el-button{
+        width:223px;
+        margin-left: 64px;
+        margin-top: 26px;
+      }
+      .is-disabled{
+        background: #dddddd;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+
+
